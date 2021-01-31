@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>org.example.PluginTemplate</id>
+    <name>My First IntelliJ</name>
+    <vendor email="" url="">Example Inc</vendor>
+
+    <description>This is the first plugin I made in IntelliJ!</description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="MyFirstAction" class="MyFirstAction" text="MyFirstAction" description="A demo first action">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt N"/>
+        </action>
+    </actions>
+</idea-plugin>
