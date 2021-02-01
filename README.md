@@ -1,4 +1,4 @@
-# PluginTemplate
+# PluginDevelopment
 
-This is a template for the creation of new IntelliJ plugins. It uses the gradle intellij plugin approach, and is built on Java 11.
-There is a sample action which will create a Balloon notification to display `Hello world!`.
+This repository it to be used in conjunction with ongoing tutorial series at [medium](https://jordangibson737.medium.com/episode-0-writing-a-plugin-in-intellij-idea-8b8eef13a737).
+Change branch to the respective episode which you are looking for the code for.
